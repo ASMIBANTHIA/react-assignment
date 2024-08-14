@@ -1,0 +1,47 @@
+.card {
+    background-color:burlywood;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: absolute;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color:teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color:antiquewhite;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .togglebtn{ 
+    margin-left: 20px;
+  }
+  .fontcss{
+    font-weight: 700;
+  }
